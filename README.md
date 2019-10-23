@@ -6,12 +6,14 @@ Gnotes is a Front end React Project next.js based, for dealing with Scores mangm
 Use the package manager yarn to install Gnotes.
 
 ```bash
-yarn install
+git clone https://github.com/IGZO/Gnotes.git
 ```
 
 ## Usage
 
 ```
+cd Gnotes
+yarn install
 yarn next dev
 ```
 
