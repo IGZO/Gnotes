@@ -20,7 +20,20 @@ yarn next dev
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+```
+//check for changes
+git fetch
+//get new changes
+git pull
+//create a new branch & activate
+git checkout -b [branchName]
+//push branch
+git add .
+git commit -m "[Message]"
+git push --set-upstream origin [branchName] 
+```
+
 Please make sure to update tests as appropriate.
 
 ## License
-Free to use.
+MIT License.
