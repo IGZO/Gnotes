@@ -10,7 +10,7 @@ const layoutStyle = {
 const Layout = props => (
   <div>
     <div class="wrapper ">
-      <Sidebar />
+      <Sidebar/>
       <div class="main-panel">
         <NavBar/>
         <div class="content">
