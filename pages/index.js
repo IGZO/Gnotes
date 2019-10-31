@@ -5,10 +5,7 @@ import React, { Component } from 'react';
 
 class Index extends Component {
 
-  constructor(){
-    super();
-    this.state = { }
-  }
+  state = { }
 
   componentDidMount () {
     let Scripts = [
