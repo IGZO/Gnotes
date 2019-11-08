@@ -1,1 +1,1 @@
-web: yarn install && yarn next dev
+web: yarn next start
