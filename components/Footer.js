@@ -4,11 +4,13 @@ import React, { Component } from 'react';
 //import styles from './DashedBox.css';
 
 class Footer extends Component {
+
   state = {}
   componentDidMount() {
 
   }
   render() {
+    var FullYear = new Date().getFullYear();
     return (
       <footer className="footer">
         <div className="container-fluid">
@@ -36,11 +38,9 @@ class Footer extends Component {
               </li>
             </ul>
           </nav>
-          <div className="copyright float-right">
-            &copy;
-        <script>
-              document.write(new Date().getFullYear())
-        </script>, made with <i className="material-icons">favorite</i> by
+          <div className="copyright float-right"> &copy;
+            {FullYear}
+            , made with <i className="material-icons">favorite</i> by
         <a href="" target="_blank">BDIO</a> for a better ENSAM.
       </div>
         </div>
