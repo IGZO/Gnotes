@@ -9,11 +9,11 @@ const layoutStyle = {
 
 const Layout = props => (
   <div>
-    <div class="wrapper ">
+    <div className="wrapper ">
       <Sidebar/>
-      <div class="main-panel">
+      <div className="main-panel">
         <NavBar/>
-        <div class="content">
+        <div className="content">
           <Content/>
         </div>
         <Footer/>
