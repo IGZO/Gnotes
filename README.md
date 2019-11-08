@@ -1,5 +1,6 @@
 # Gnotes
-Gnotes is a Front end React Project next.js based, for dealing with Scores mangment.
+Gnotes is a Front end React Project next.js based, for dealing with Scores mangment. 
+https://gnotes-develop.herokuapp.com/
 
 ## Installation
 
