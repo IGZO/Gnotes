@@ -48,7 +48,7 @@ class Index extends Component {
       <html>
         <Head />
         <body>
-          <Layout />
+          <Layout page='index'/>
         </body>
       </html>
     );

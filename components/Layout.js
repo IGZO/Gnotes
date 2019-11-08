@@ -1,14 +1,24 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Sidebar from './SideBar';
-import NavBar from './NavBar';
-import Content from './Content.js';
-import Footer from './Footer';
+import Sidebar from "./SideBar";
+import NavBar from "./NavBar";
+import Dashboard from "./dashboard/Index";
+import Footer from "./Footer";
+
+
 
 class Layout extends Component {
-  state = {}
-  componentDidMount() {
-
+  state = {};
+  componentDidMount() {}
+  renderSwitch(page) {
+    switch(page) {
+      case 'index':
+        return <Dashboard/> ;
+      case 'test':
+        return  'test';
+      default:
+        return '404';
+    }
   }
   render() {
     return (
@@ -18,7 +28,7 @@ class Layout extends Component {
           <div className="main-panel">
             <NavBar />
             <div className="content">
-              <Content />
+              {this.renderSwitch(this.props.page)}
             </div>
             <Footer />
           </div>
