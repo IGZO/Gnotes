@@ -1,45 +1,52 @@
-import Link from 'next/link';
+import React, { Component } from 'react';
 
-const linkStyle = {
-  
-};
+//use this blank tempate to create new component
+//import styles from './DashedBox.css';
 
-const Footer = () => (
-    <footer className="footer">
-    <div className="container-fluid">
-      <nav className="float-left">
-        <ul>
-          <li>
-            <a href="">
-              Gnotes
+class Footer extends Component {
+  state = {}
+  componentDidMount() {
+
+  }
+  render() {
+    return (
+      <footer className="footer">
+        <div className="container-fluid">
+          <nav className="float-left">
+            <ul>
+              <li>
+                <a href="">
+                  Gnotes
             </a>
-          </li>
-          <li>
-            <a href="">
-              About Us
+              </li>
+              <li>
+                <a href="">
+                  About Us
             </a>
-          </li>
-          <li>
-            <a href="">
-              Blog
+              </li>
+              <li>
+                <a href="">
+                  Blog
             </a>
-          </li>
-          <li>
-            <a href="">
-              Licenses
+              </li>
+              <li>
+                <a href="">
+                  Licenses
             </a>
-          </li>
-        </ul>
-      </nav>
-      <div className="copyright float-right">
-        &copy;
+              </li>
+            </ul>
+          </nav>
+          <div className="copyright float-right">
+            &copy;
         <script>
-          document.write(new Date().getFullYear())
+              document.write(new Date().getFullYear())
         </script>, made with <i className="material-icons">favorite</i> by
         <a href="" target="_blank">BDIO</a> for a better ENSAM.
       </div>
-    </div>
-  </footer>
-);
+        </div>
+      </footer>
+    );
+  }
+}
 
 export default Footer;

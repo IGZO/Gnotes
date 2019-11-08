@@ -1,25 +1,31 @@
+import React, { Component } from 'react';
+
 import Sidebar from './SideBar';
 import NavBar from './NavBar';
 import Content from './Content.js';
 import Footer from './Footer';
 
-const layoutStyle = {
-  
-};
+class Layout extends Component {
+  state = {}
+  componentDidMount() {
 
-const Layout = props => (
-  <div>
-    <div className="wrapper ">
-      <Sidebar/>
-      <div className="main-panel">
-        <NavBar/>
-        <div className="content">
-          <Content/>
+  }
+  render() {
+    return (
+      <div>
+        <div className="wrapper">
+          <Sidebar />
+          <div className="main-panel">
+            <NavBar />
+            <div className="content">
+              <Content />
+            </div>
+            <Footer />
+          </div>
         </div>
-        <Footer/>
       </div>
-    </div>
-  </div>
-);
+    );
+  }
+}
 
 export default Layout;

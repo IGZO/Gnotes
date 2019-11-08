@@ -5,9 +5,9 @@ import React, { Component } from 'react';
 
 class Index extends Component {
 
-  state = { }
+  state = {}
 
-  componentDidMount () {
+  componentDidMount() {
     let Scripts = [
       "static/assets/js/core/jquery.min.js",
       "static/assets/js/core/popper.min.js",
@@ -33,22 +33,22 @@ class Index extends Component {
       "static/assets/js/material-dashboard.js?v=2.1.0",
       "static/HomeCode.js"
     ];
-  
+
     Scripts.forEach(element => {
       const script = document.createElement("script");
       script.src = element;
       script.async = true;
       document.body.appendChild(script);
     });
-    
+
   }
 
   render() {
     return (
       <html>
-        <Head/>
+        <Head />
         <body>
-          <Layout/>
+          <Layout />
         </body>
       </html>
     );
