@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 //use this blank tempate to create new component
-//import styles from './DashedBox.css';
+import User from './user';
 
 class SideBar extends Component {
   state = {};
@@ -23,45 +23,7 @@ class SideBar extends Component {
           </a>
         </div>
         <div className="sidebar-wrapper">
-          <div className="user">
-            <div className="photo">
-              <img src="static/assets/img/faces/avatar.jpg" />
-            </div>
-            <div className="user-info">
-              <a
-                data-toggle="collapse"
-                href="#collapseExample"
-                className="username"
-              >
-                <span>
-                  UserName
-                  <b className="caret"></b>
-                </span>
-              </a>
-              <div className="collapse" id="collapseExample">
-                <ul className="nav">
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      <span className="sidebar-mini"> MP </span>
-                      <span className="sidebar-normal"> My Profile </span>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      <span className="sidebar-mini"> EP </span>
-                      <span className="sidebar-normal"> Edit Profile </span>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      <span className="sidebar-mini"> S </span>
-                      <span className="sidebar-normal"> Settings </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <User/>
           <ul className="nav">
             <li className="nav-item active ">
               <a className="nav-link" href="../examples/dashboard.html">

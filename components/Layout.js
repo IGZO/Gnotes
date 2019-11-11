@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 
-import Sidebar from "./SideBar";
-import NavBar from "./NavBar";
+import Sidebar from "./sidebar/Index";
+import NavBar from "./navbar/Index";
 import Dashboard from "./dashboard/Index";
 import Footer from "./Footer";
-
-
 
 class Layout extends Component {
   state = {};
