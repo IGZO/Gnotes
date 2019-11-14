@@ -4,6 +4,7 @@ import Sidebar from "./sidebar/Index";
 import NavBar from "./navbar/Index";
 import Dashboard from "./dashboard/Index";
 import Footer from "./Footer";
+import Teacher from "./Teachers/index"
 
 class Layout extends Component {
   state = {};
@@ -12,8 +13,8 @@ class Layout extends Component {
     switch(page) {
       case 'index':
         return <Dashboard/> ;
-      case 'test':
-        return  'test';
+      case 'teacher':
+        return  <Teacher/>;
       default:
         return '404';
     }

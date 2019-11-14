@@ -26,7 +26,7 @@ class SideBar extends Component {
           <User/>
           <ul className="nav">
             <li className="nav-item active ">
-              <a className="nav-link" href="../examples/dashboard.html">
+              <a className="nav-link" href="/">
                 <i className="material-icons">dashboard</i>
                 <p> Dashboard </p>
               </a>
@@ -51,8 +51,17 @@ class SideBar extends Component {
                       className="nav-link"
                       href="../examples/pages/pricing.html"
                     >
-                      <span className="sidebar-mini"> P </span>
-                      <span className="sidebar-normal"> Pricing </span>
+                      <span className="sidebar-mini"> T </span>
+                      <span className="sidebar-normal"> TestPage </span>
+                    </a>
+                  </li>
+                  <li className="nav-item ">
+                    <a
+                      className="nav-link"
+                      href="/teacher"
+                    >
+                      <span className="sidebar-mini"> T </span>
+                      <span className="sidebar-normal"> Teachers </span>
                     </a>
                   </li>
                 </ul>
