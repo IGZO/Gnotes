@@ -30,13 +30,13 @@ class Index extends Component {
       <div className="content">
         <div className="container-fluid">
           <div className="row">
-            {Data.ChartCard.map(item => (
-              <ChartCard data={item} />
+            {Data.ChartCard.map((item, index) => (
+              <ChartCard key={index} data={item} />
             ))}
           </div>
           <div className="row">
-            {Data.StatCard.map(item => (
-              <StatCard data={item} />
+            {Data.StatCard.map((item, index) => (
+              <StatCard key={index} data={item} />
             ))}
           </div>
         </div>

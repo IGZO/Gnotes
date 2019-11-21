@@ -82,7 +82,7 @@ class Teacher extends Component {
                         </div>
                         <div className="form-group">
                           <label
-                            for="exampleInput1"
+                            htmlFor="exampleInput1"
                             className="bmd-label-floating"
                           >
                             First Name (required)
@@ -104,7 +104,7 @@ class Teacher extends Component {
                         </div>
                         <div className="form-group">
                           <label
-                            for="exampleInput11"
+                            htmlFor="exampleInput11"
                             className="bmd-label-floating"
                           >
                             Second Name
@@ -128,7 +128,7 @@ class Teacher extends Component {
                         </div>
                         <div className="form-group">
                           <label
-                            for="exampleInput1"
+                            htmlFor="exampleInput1"
                             className="bmd-label-floating"
                           >
                             Email (required)
