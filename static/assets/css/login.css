@@ -1,0 +1,5 @@
+.firstCss{
+    background-image: url('../assets/img/login.jpg'); 
+    background-size: cover; 
+    background-position: top center;
+}

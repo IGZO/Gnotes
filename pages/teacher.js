@@ -1,11 +1,10 @@
-import Layout from '../components/Layout';
-import Head from '../components/Head';
-import React, { Component } from 'react';
+import Layout from "../components/Layout";
+import Head from "../components/Head";
+import React, { Component } from "react";
 //import styles from './DashedBox.css';
 
 class Index extends Component {
-
-  state = {}
+  state = {};
 
   componentDidMount() {
     let Scripts = [
@@ -31,7 +30,8 @@ class Index extends Component {
       "static/assets/js/plugins/chartist.min.js",
       "static/assets/js/plugins/bootstrap-notify.js",
       "static/assets/js/material-dashboard.js?v=2.1.0",
-      "static/HomeCode.js"
+      "static/HomeCode.js",
+      "static/assets/demo/demo.js"
     ];
 
     Scripts.forEach(element => {
@@ -40,7 +40,6 @@ class Index extends Component {
       script.async = true;
       document.body.appendChild(script);
     });
-
   }
 
   render() {
@@ -48,7 +47,7 @@ class Index extends Component {
       <html>
         <Head />
         <body>
-          <Layout page='index'/>
+          <Layout page="teacher" />
         </body>
       </html>
     );
